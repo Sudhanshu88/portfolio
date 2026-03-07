@@ -51,7 +51,7 @@ const Main = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Hi, I&apos;m <span className="text-[#5651e5]">Ashish</span>
+            Hi, I&apos;m <span className="text-[#5651e5]">Sudhanshu</span>
           </motion.h1>
 
           <motion.h1
@@ -60,7 +60,7 @@ const Main = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            A Full-Stack Web Developer
+            Devops Engineer
           </motion.h1>
 
           <motion.p
@@ -69,14 +69,14 @@ const Main = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            A passionate Full Stack Web Developer dedicated to crafting dynamic
-            and user-centric digital experiences. With a blend of creativity and
-            technical expertise, I thrive on bringing ideas to life through
-            innovative web solutions. I&apos;m on a perpetual journey of
-            exploring the realms of web development, constantly seeking to merge
-            the artistry of design with the precision of code. My love for
-            problem-solving and the ever-evolving nature of technology fuels my
-            enthusiasm to create robust and elegant web applications.
+            A passionate DevOps Engineer dedicated to building reliable, scalable, and
+            automated infrastructure. With strong knowledge of cloud platforms,
+            containerization, and CI/CD pipelines, I focus on improving development
+            workflows and accelerating application delivery. I enjoy automating
+            deployment processes, managing infrastructure, and ensuring high
+            availability of applications. I am continuously exploring modern DevOps
+            tools and practices to bridge the gap between development and operations
+            while delivering efficient and secure production environments.
           </motion.p>
 
           {/* Social Icons */}
@@ -88,21 +88,30 @@ const Main = () => {
           >
             {[
               {
-                href: "https://www.linkedin.com/in/ashish-narawariya-7536b6242/",
+                href: "https://www.linkedin.com/in/sudhanshu-ranjan-cloud/",
                 icon: <FaLinkedin />,
               },
               {
-                href: "https://github.com/Ashish1965/",
+                href: "https://github.com/Sudhanshu88",
                 icon: <FaGithub />,
               },
               {
-                href: "https://www.instagram.com/ashishnarawariya/",
+                href: "https://www.instagram.com/devops.with.sudhanshu/",
                 icon: <FaInstagram />,
               },
               {
-                href: "https://x.com/AshishNara33521/",
+                href: "https://x.com/8825Ranjan",
                 icon: <FaXTwitter />,
               },
+              {
+                href: "sudhanshuranjan029@gmail.com",
+                icon: <FAgmail/>
+              },
+              {
+                href:"8825234780",
+                icon: <FaPhone/>
+              },
+
             ].map((social, i) => (
               <motion.div
                 key={i}

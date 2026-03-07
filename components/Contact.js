@@ -75,8 +75,8 @@ const Contact = () => {
                 className="rounded-xl w-full mb-4"
                 whileHover={hoverEffect}
               />
-              <h2 className="py-2 dark:text-gray-500 text-gray-700">Ashish Narawariya</h2>
-              <p className="dark:text-gray-500 text-gray-700">Full Stack Web Developer</p>
+              <h2 className="py-2 dark:text-gray-500 text-gray-700">Sudhanshu Ranjan</h2>
+              <p className="dark:text-gray-500 text-gray-700">Devops Engineer</p>
               <p className="py-4 dark:text-gray-500 text-gray-600">
                 Thank you for taking the time to explore my portfolio! If you're passionate
                 about technology, innovation, or have a project in mind that needs a creative
@@ -93,20 +93,28 @@ const Contact = () => {
           >
             {[
               {
-                href: "https://www.linkedin.com/in/ashish-narawariya-7536b6242/",
+                href: "https://www.linkedin.com/in/sudhanshu-ranjan-cloud/",
                 icon: <FaLinkedin />,
               },
               {
-                href: "https://github.com/Ashish1965/",
+                href: "https://github.com/Sudhanshu88",
                 icon: <FaGithub />,
               },
               {
-                href: "https://www.instagram.com/ashishnarawariya/",
+                href: "https://www.instagram.com/devops.with.sudhanshu/",
                 icon: <FaInstagram />,
               },
               {
-                href: "https://x.com/AshishNara33521/",
+                href: "https://x.com/8825Ranjan",
                 icon: <FaXTwitter />,
+              },
+              {
+                href:"sudhanshuranjan029@gmail.com",
+                icon: <FaGmail />
+              },
+              {
+                href: "8825234780",
+                icon: <FaPhone />
               },
             ].map((social, i) => (
               <motion.div

@@ -227,25 +227,25 @@ const Navbar = () => {
                   Let's Connect
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                  <Link href="https://www.linkedin.com/in/ashish-narawariya-7536b6242/">
+                  <Link href="https://www.linkedin.com/in/sudhanshu-ranjan-cloud/">
                     <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover-scale-effect">
                       <FaLinkedin className="text-gray-700 dark:text-gray-200" />
                     </div>
                   </Link>
 
-                  <Link href="https://github.com/Ashish1965/">
+                  <Link href="https://github.com/Sudhanshu88">
                     <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover-scale-effect">
                       <FaGithub className="text-gray-700 dark:text-gray-200" />
                     </div>
                   </Link>
 
-                  <Link href="https://www.instagram.com/ashishnarawariya/">
+                  <Link href="https://www.instagram.com/devops.with.sudhanshu/">
                     <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover-scale-effect">
                       <FaInstagram className="text-gray-700 dark:text-gray-200" />
                     </div>
                   </Link>
 
-                  <Link href="https://x.com/AshishNara33521/">
+                  <Link href="https://x.com/8825Ranjan">
                     <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover-scale-effect">
                       <FaXTwitter className="text-gray-700 dark:text-gray-200" />
                     </div>

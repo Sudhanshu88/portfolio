@@ -4,23 +4,23 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    company: "Newgen Software – Software Engineer Intern",
-    duration: "Feb 2025 – Present",
+    company: "Unleash Destination Tours And Experience – Python Developer Intern",
+    duration: "May 2024 – May 2025",
     description:
-      " During my internship at Newgen Software, I worked on core products such as Omnidocs,IBPS, BAM, BRMS, and NewgenONE, gaining valuable insights into enterprise content and process automation platforms. My role involved contributing to the backend using Javaand implementing dynamic client-side features using JavaScript. I also participated in creating real-time web interfaces that streamlined user interactions and enhanced customer experience.",
+      " During my internship at Unleash Destination Tours And Experience, I worked on core products such as Omnidocs,IBPS, BAM, BRMS, and NewgenONE, gaining valuable insights into enterprise content and process automation platforms. My role involved contributing to the backend using Javaand implementing dynamic client-side features using JavaScript. I also participated in creating real-time web interfaces that streamlined user interactions and enhanced customer experience.",
   },
   {
-    company: "Jobsdoor360 – Software Engineer Intern",
-    duration: "Jan 2025 – Feb 2025",
+    company: "Zaalima Development – Devops Engineer Intern",
+    duration: "May 2025 – Nov 2025",
     description:
-      "At Jobsdoor360, I was responsible for developing the website interface using HTML, EJS, and Firebase. I implemented dynamic rendering to enhance interactivity and user engagement. I worked on both the client and server sides to ensure responsiveness and seamless data handling. The integration with Firebase Authentication helped in managing secure logins and user data efficiently.",
+      "At Zaalima Development, I worked in a DevOps role where I focused on automating application deployment and managing infrastructure. I implemented CI/CD pipelines to streamline the build, test, and deployment process. I worked with containerization tools like Docker to package applications and ensure consistent environments across development and production. I also assisted in managing cloud resources, monitoring application performance, and maintaining reliable deployment workflows to improve system scalability and stability."
   },
   {
-    company: "Bluestock Fintech – Frontend Developer Intern",
-    duration: "Jul 2024 – Aug 2024",
+    company: "Freelance – Devops role",
+    duration: "Nov 2025 – Present",
     description:
-      "As a frontend developer intern at Bluestock Fintech, I built responsive and accessible interfaces using HTML5, CSS3, and JavaScript. I contributed to the development of user-centric fintech dashboards, ensuring intuitive layouts and high usability. This experience helped me understand real-world design principles and gave me practical exposure to front-end development in a fintech environment.",
-  },
+      "At Freelance, I worked in a DevOps role where I focused on automating application deployment and managing infrastructure. I implemented CI/CD pipelines to streamline the build, test, and deployment process. I worked with containerization tools like Docker to package applications and ensure consistent environments across development and production. I also assisted in managing cloud resources, monitoring application performance, and maintaining reliable deployment workflows to improve system scalability and stability."
+},
 ];
 
 const Experience = () => {

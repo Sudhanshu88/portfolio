@@ -1,2 +1,2 @@
-const baseUrl = 'https://ashish-narawariya.vercel.app';
+const baseUrl = 'https://Sudhanshu.cloud.vercel.app';
 export default baseUrl;

@@ -50,14 +50,14 @@ const About = () => {
             Who I Am
           </motion.h2>
           <motion.p className="py-2 text-gray-600 dark:text-gray-500" variants={itemVariants}>
-            My journey into the world of web development began with a profound fascination for the intersection of design and code. Over the years, I've delved into the intricacies of both front-end and back-end development, finding joy in mastering languages and frameworks that power the web.
-          </motion.p>
+            "At Zaalima Development, I worked in a DevOps role where I focused on automating application deployment and managing infrastructure. I implemented CI/CD pipelines to streamline the build, test, and deployment process. I worked with containerization tools like Docker to package applications and ensure consistent environments across development and production. I also assisted in managing cloud resources, monitoring application performance, and maintaining reliable deployment workflows to improve system scalability and stability."
+            </motion.p>
           <motion.p className="py-2 text-gray-600 dark:text-gray-500" variants={itemVariants}>
-            On the front-end, I'm well-versed in HTML, CSS, Tailwind CSS, and JavaScript, utilizing modern frameworks like React and Next.js to create intuitive, responsive, and visually appealing interfaces. I'm passionate about user-centric design, ensuring seamless interactions and accessibility across devices. On the back-end, I thrive in architecting robust server-side solutions, working extensively with Node.js, Express, Next.js, and databases such as MongoDB and MySQL to build scalable and efficient applications.
-          </motion.p>
+           "At Zaalima Development, I worked in a DevOps role where I focused on automating application deployment and managing infrastructure. I implemented CI/CD pipelines to streamline the build, test, and deployment process. I worked with containerization tools like Docker to package applications and ensure consistent environments across development and production. I also assisted in managing cloud resources, monitoring application performance, and maintaining reliable deployment workflows to improve system scalability and stability."
+            </motion.p>
           <motion.p className="py-2 text-gray-600 dark:text-gray-500" variants={itemVariants}>
-            I see every project as an opportunity to innovate and solve real-world challenges. From optimizing performance and implementing secure authentication systems to integrating APIs and exploring emerging technologies, I love diving deep into technical intricacies to deliver impactful solutions. I'm not just a developer; I'm a collaborator eager to work with like-minded individuals and businesses.
-          </motion.p>
+            "At Zaalima Development, I worked in a DevOps role where I focused on automating application deployment and managing infrastructure. I implemented CI/CD pipelines to streamline the build, test, and deployment process. I worked with containerization tools like Docker to package applications and ensure consistent environments across development and production. I also assisted in managing cloud resources, monitoring application performance, and maintaining reliable deployment workflows to improve system scalability and stability."
+            </motion.p>
           <Link href="/#projects">
             <motion.p 
               className="py-2 text-gray-600 underline cursor-pointer dark:text-blue-500"
