@@ -2,19 +2,18 @@ import React from "react";
 import SkillsItem from "./skills-item";
 
 // Import images
-import Linux from "@/public/assets/skills/Linux.jpg";
+import Linux from "@/public/assets/skills/linux.jpg";
 import Git from "@/public/assets/skills/git.png";
-import Github from "@/public/assets/skills/github.png";
-import GithubAction from "@/public/assets/skills/Github Action.png";
+import Github from "@/public/assets/skills/Github.png";
+import GithubAction from "@/public/assets/skills/github action.png";
 import Aws from "@/public/assets/skills/Aws.png";
 import Docker from "@/public/assets/skills/Docker.png";
 import Kubernetes from "@/public/assets/skills/kubernetes.png";
-import Grafana from "@/public/assets/skills/Grafana.jpg";
-import Prometheas from "@/public/assets/skills/Prometheas.jpg";
+import Grafana from "@/public/assets/skills/grafana.jpg";
+import Prometheus from "@/public/assets/skills/prometheus.jpg";
 import Python from "@/public/assets/skills/python.png";
-import CICD from "@/public/assets/skills/CICD.jpg";
-import GitLab from "@/public/assets/skills/GitLab.png";
-
+import CICD from "@/public/assets/skills/cicd.jpg";
+import GitLab from "@/public/assets/skills/gitlab.png";
 
 // Animation
 import { motion } from "framer-motion";
