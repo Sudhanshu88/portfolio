@@ -2,17 +2,17 @@ import React from "react";
 import SkillsItem from "./skills-item";
 
 // Import images
-import Linux from "@/public/assets/skills/Linux.png";
+import Linux from "@/public/assets/skills/Linux.jpg";
 import Git from "@/public/assets/skills/git.png";
 import Github from "@/public/assets/skills/github.png";
 import GithubAction from "@/public/assets/skills/Github Action.png";
 import Aws from "@/public/assets/skills/Aws.png";
 import Docker from "@/public/assets/skills/Docker.png";
 import Kubernetes from "@/public/assets/skills/kubernetes.png";
-import Grafana from "@/public/assets/skills/Grafana.png";
-import Prometheas from "@/public/assets/skills/Prometheas.png";
+import Grafana from "@/public/assets/skills/Grafana.jpg";
+import Prometheas from "@/public/assets/skills/Prometheas.jpg";
 import Python from "@/public/assets/skills/python.png";
-import CICD from "@/public/assets/skills/CICD.png";
+import CICD from "@/public/assets/skills/CICD.jpg";
 import GitLab from "@/public/assets/skills/GitLab.png";
 
 
