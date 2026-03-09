@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaPhone } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import baseUrl from "@/helpers/baseUrl";
@@ -8,6 +8,7 @@ import toast from "react-hot-toast";
 import { useRouter } from "next/router";
 import { useTheme } from "@/context/ThemeContext";
 import { motion } from "framer-motion";
+import { FaGoogle } from "react-icons/fa";
 
 const Contact = () => {
   const router = useRouter();
@@ -109,8 +110,10 @@ const Contact = () => {
                 icon: <FaXTwitter />,
               },
               {
-                href:"sudhanshuranjan029@gmail.com",
-                icon: <FaGmail />
+                
+                href: "mailto:sudhanshuranjan029@gmail.com",
+                icon: <FaGoogle />
+                
               },
               {
                 href: "8825234780",

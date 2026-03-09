@@ -72,7 +72,7 @@ const Skills = () => {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
             <SkillsItem title="Linux" imageUrl={Linux} />
-            <SkillsItem title="Windows" imageUrl={Windows} />
+            
           </div>
         </motion.div>
 
@@ -108,7 +108,7 @@ const Skills = () => {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
             <SkillsItem title="Grafana" imageUrl={Grafana} />
-            <SkillsItem title="Prometheas" imageUrl={Prometheas} />
+            <SkillsItem title="Prometheus" imageUrl={Prometheus} />
           
           </div>
         </motion.div>

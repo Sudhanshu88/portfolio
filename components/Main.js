@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaPhone } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import ThemeToggle from "./ThememToggle";
+import { FaGoogle } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -104,8 +105,8 @@ const Main = () => {
                 icon: <FaXTwitter />,
               },
               {
-                href: "sudhanshuranjan029@gmail.com",
-                icon: <FAgmail/>
+                href: "mailto:sudhanshuranjan029@gmail.com",
+                icon: <FaGoogle />
               },
               {
                 href:"8825234780",
