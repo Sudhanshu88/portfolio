@@ -28,7 +28,7 @@ const Main = () => {
         >
           {/* Profile Image */}
           <motion.img
-            src="/assets/promo.jpeg"
+            src="/assets/promo.jpg"
             alt=""
             className="md:mt-36 rounded-[100%] h-64 w-64"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaInstagram, FaPhone } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram,  } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import baseUrl from "@/helpers/baseUrl";
@@ -115,10 +115,7 @@ const Contact = () => {
                 icon: <FaGoogle />
                 
               },
-              {
-                href: "8825234780",
-                icon: <FaPhone />
-              },
+              
             ].map((social, i) => (
               <motion.div
                 key={i}
