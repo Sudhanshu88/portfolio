@@ -11,6 +11,7 @@ const Projects = () => {
           </p>
           <h2 className="py-4 text-gray-700 dark:text-gray-600">What I've Built</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            < ProjectItem imageUrl = "/assets/projects/pathuntaken.png" title = "PATHUNTAKEN" language = "Next Js" link = "/pathuntaken"/>
             < ProjectItem imageUrl = "/assets/projects/netflix.png" title = "Aflix" language = "Next Js" link = "/netflix"/>
             < ProjectItem imageUrl = "/assets/projects/Ecommerce.jfif" title = "Elegant" language = "Next Js" link = "/elegant"/>
             {/* < ProjectItem imageUrl = "/assets/projects/Jnv.png" title = "School Admission Project" language = "PHP" link = "/school"/> */}

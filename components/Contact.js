@@ -87,7 +87,7 @@ const Contact = () => {
 
               <p className="uppercase pt-8 dark:text-gray-500 text-gray-700">Connect With Me</p>
              <motion.div
-            className="flex items-center justify-between max-w-[330px] m-auto py-4"
+            className="flex flex-wrap items-center justify-center gap-4 w-full m-auto py-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 0.6 }}

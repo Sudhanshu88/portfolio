@@ -52,12 +52,6 @@ const About = () => {
           <motion.p className="py-2 text-gray-600 dark:text-gray-500" variants={itemVariants}>
             "At Zaalima Development, I worked in a DevOps role where I focused on automating application deployment and managing infrastructure. I implemented CI/CD pipelines to streamline the build, test, and deployment process. I worked with containerization tools like Docker to package applications and ensure consistent environments across development and production. I also assisted in managing cloud resources, monitoring application performance, and maintaining reliable deployment workflows to improve system scalability and stability."
             </motion.p>
-          <motion.p className="py-2 text-gray-600 dark:text-gray-500" variants={itemVariants}>
-           "At Zaalima Development, I worked in a DevOps role where I focused on automating application deployment and managing infrastructure. I implemented CI/CD pipelines to streamline the build, test, and deployment process. I worked with containerization tools like Docker to package applications and ensure consistent environments across development and production. I also assisted in managing cloud resources, monitoring application performance, and maintaining reliable deployment workflows to improve system scalability and stability."
-            </motion.p>
-          <motion.p className="py-2 text-gray-600 dark:text-gray-500" variants={itemVariants}>
-            "At Zaalima Development, I worked in a DevOps role where I focused on automating application deployment and managing infrastructure. I implemented CI/CD pipelines to streamline the build, test, and deployment process. I worked with containerization tools like Docker to package applications and ensure consistent environments across development and production. I also assisted in managing cloud resources, monitoring application performance, and maintaining reliable deployment workflows to improve system scalability and stability."
-            </motion.p>
           <Link href="/#projects">
             <motion.p 
               className="py-2 text-gray-600 underline cursor-pointer dark:text-blue-500"
@@ -75,9 +69,9 @@ const About = () => {
           whileHover={imageHover}
         >
           <img
-            src="/assets/about.avif"
+            src="/assets/about_new.png"
             className="rounded-xl"
-            alt="About"
+            alt="About DevOps Engineer"
           />
         </motion.div>
       </motion.div>
