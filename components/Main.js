@@ -9,14 +9,14 @@ import { FaGoogle } from "react-icons/fa";
 const Main = () => {
   return (
     <div id="home" className="w-full text-center mt-40 lg:mt-12 relative overflow-hidden">
-      {/* Decorative Graphic */}
+      {/* Decorative Graphic Background */}
       <motion.img
         src="/assets/devops-graphic.png"
         alt="DevOps Cloud Graphic Background"
-        className="absolute -z-10 opacity-40 dark:opacity-50 md:w-[800px] w-[400px] right-[-10%] top-[-5%] md:top-0 md:right-[-5%] pointer-events-none"
-        initial={{ opacity: 0, scale: 0.9, y: 30 }}
-        animate={{ opacity: 0.45, scale: 1, y: [0, -20, 0] }}
-        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute top-0 left-0 w-full h-full object-cover -z-10 opacity-30 dark:opacity-40 pointer-events-none"
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 0.35, scale: 1 }}
+        transition={{ duration: 4, ease: "easeInOut", yoyo: Infinity }}
       />
       {/* Theme toggle button */}
       <div className="fixed top-24 right-8 z-10">
