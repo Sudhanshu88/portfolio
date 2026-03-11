@@ -91,15 +91,26 @@ const property = (props) => {
   );
 };
 
-export async function getServerSideProps({ params: { pid } }) {
-  const res = await fetch(`${baseUrl}/api/${pid}`);
-  const data = await res.json();
-  // console.log(data);
-  return {
-    props: {
-      individualPage: data,
-    },
-  };
+export async function getServerSideProps({ req, params: { pid } }) {
+  try {
+    const host = req ? req.headers.host : 'localhost:3000';
+    const protocol = req?.headers['x-forwarded-proto'] || 'http';
+    const currentBaseUrl = `${protocol}://${host}`;
+
+    const res = await fetch(`${currentBaseUrl}/api/${pid}`);
+    const data = await res.json();
+    if (data.error || !data.pid) {
+      return { notFound: true };
+    }
+    return {
+      props: {
+        individualPage: data,
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching project data:", error);
+    return { notFound: true };
+  }
 }
 
 export default property;

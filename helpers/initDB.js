@@ -4,6 +4,10 @@ function initDB() {
     console.log("already connected");
     return;
   }
+  if (!process.env.Mongo_URI) {
+    console.log("Mongo_URI not defined, using mock data");
+    return;
+  }
   mongoose.connect(process.env.Mongo_URI, {
     useNewUrlParser: true,
   });
