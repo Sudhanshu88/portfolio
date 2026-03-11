@@ -1,9 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+
 const SkillsItem = (props) => {
   const { title, imageUrl } = props;
   return (
-    <div className="p-6 shadow-xl rounded-xl  hover-scale-effect h-auto">
+    <motion.div 
+      className="p-6 shadow-xl rounded-xl h-auto"
+      whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px rgba(0,0,0,0.15)" }}
+      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+    >
       <div className="grid grid-cols-2 gap-4 justify-center items-center">
         <div className="m-auto">
           <Image src={imageUrl} width="64px" height="64px" alt="/" />
@@ -12,7 +18,7 @@ const SkillsItem = (props) => {
           <h3 className="dark:text-gray-500">{title}</h3>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

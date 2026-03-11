@@ -7,6 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { useRouter } from "next/router";
 import { useTheme } from "@/context/ThemeContext";
 import ThemeToggle from "./ThememToggle";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -56,13 +57,16 @@ const Navbar = () => {
 
   return (
     <div>
-      <div
+      <motion.div
         style={{ backgroundColor: `${navBg}` }}
         className={
           shadow
             ? "fixed w-full h-20 shadow-xl z-[100]"
             : "fixed w-full h-20 z-[100]"
         }
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-gray-900">
           <div>
@@ -255,7 +259,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
