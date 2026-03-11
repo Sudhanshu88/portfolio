@@ -11,12 +11,12 @@ const Main = () => {
     <div id="home" className="w-full text-center mt-40 lg:mt-12 relative overflow-hidden">
       {/* Decorative Graphic */}
       <motion.img
-        src="/assets/hero-graphic.png"
-        alt="Hero Graphic Background"
-        className="absolute -z-10 opacity-30 dark:opacity-40 md:w-[700px] w-[350px] right-[-5%] top-[-5%] md:top-10 md:right-0 mix-blend-luminosity pointer-events-none"
-        initial={{ opacity: 0, scale: 0.8, rotate: -10 }}
-        animate={{ opacity: 0.3, scale: 1, rotate: 0 }}
-        transition={{ duration: 1.5, ease: "easeOut" }}
+        src="/assets/devops-graphic.png"
+        alt="DevOps Cloud Graphic Background"
+        className="absolute -z-10 opacity-40 dark:opacity-50 md:w-[800px] w-[400px] right-[-10%] top-[-5%] md:top-0 md:right-[-5%] pointer-events-none"
+        initial={{ opacity: 0, scale: 0.9, y: 30 }}
+        animate={{ opacity: 0.45, scale: 1, y: [0, -20, 0] }}
+        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
       />
       {/* Theme toggle button */}
       <div className="fixed top-24 right-8 z-10">
